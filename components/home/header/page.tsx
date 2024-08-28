@@ -16,7 +16,7 @@ const Header: React.FC = () => {
         <div className="flex-shrink-0 mx-8 font-bold">TBF SERVICES</div>
         <nav className="items-start px-4 hidden sm:flex font-bold">
           <ul className="flex items-center space-x-4">
-            {[{name: "Home", href: '/'}, {name: "About", href: 'about-us'}, {name:"Services", href:'/services'}, {name:"Contact", href:'/contact'}].map((link) => (
+            {[{name: "Home", href: '/'}, {name: "About", href: 'about'}, {name:"Services", href:'/services'}, {name:"Contact", href:'/contact'}].map((link) => (
               <li key={link.name}>
                 <a
                   href={link.href}

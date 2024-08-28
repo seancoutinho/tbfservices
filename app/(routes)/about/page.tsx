@@ -19,7 +19,7 @@ const AboutUs = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
                 earum quibusdam expedita
               </p>
-              <p className="text-wrap w-auto md:text-2xl font-bold">
+              <p className="text-wrap w-auto md:text-2xl font-medium">
                 We deliver high quality sapiente deserunt ullam est eaque vitae
                 suscipit, totam eligendi asperiores sequi. Sapiente expedita
                 cupiditate autem adipisci iure
@@ -37,7 +37,7 @@ const AboutUs = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
                 earum quibusdam expedita
               </p>
-              <p className="text-wrap w-auto md:text-2xl font-bold">
+              <p className="text-wrap w-auto md:text-2xl font-medium">
                 We deliver high quality sapiente deserunt ullam est eaque vitae
                 suscipit, totam eligendi asperiores sequi. Sapiente expedita
                 cupiditate autem adipisci iure
