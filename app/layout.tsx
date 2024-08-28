@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/home/header/page";
 import { Nunito_Sans } from "@next/font/google";
+import Footer from "@/components/home/footer/page";
 
 const nunitoSans = Nunito_Sans({
   weight: ["400", "700"], // Specify the weights you need
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={nunitoSans.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -31,7 +31,7 @@ const Header: React.FC = () => {
           </ul>
         </nav>
       </header>
-      <button className="flex justify-center items-center font-black w-full text-nowrap px-12 text-black justify-center sm:w-auto bg-[#F5811F]">
+      <button className="flex items-center font-black w-full text-nowrap px-12 text-black justify-center sm:w-auto bg-[#F5811F]">
         Get In Touch 
         <svg
           xmlns="http://www.w3.org/2000/svg"

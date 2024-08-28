@@ -1,8 +1,12 @@
-import Hero from "@/components/home/hero";
-import Image from "next/image";
+import Hero from "@/components/home/hero/page";
+import ProductsSection from "@/components/home/products/page";
 
 export default function Home() {
   return (
-    <Hero />
+    <>
+      {" "}
+      <Hero />
+      <ProductsSection />
+    </>
   );
 }
