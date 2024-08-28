@@ -12,9 +12,9 @@ const Header: React.FC = () => {
 
   return (
     <div className="flex h-24">
-      <header className="flex w-full justify-between items-center text-black sm:py-6">
+      <header className="flex w-full justify-between items-center text-gray-600 sm:py-6">
         <div className="flex-shrink-0 mx-8 font-bold">TBF SERVICES</div>
-        <nav className="items-start px-4 hidden sm:flex font-black">
+        <nav className="items-start px-4 hidden sm:flex font-bold">
           <ul className="flex items-center space-x-4">
             {["Home", "About", "Services", "Contact"].map((link) => (
               <li key={link}>
@@ -31,7 +31,7 @@ const Header: React.FC = () => {
           </ul>
         </nav>
       </header>
-      <button className="flex items-center font-black w-full text-nowrap px-12 text-black justify-center sm:w-auto bg-[#F5811F]">
+      <button className="flex items-center font-bold w-full text-nowrap px-12 text-black justify-center sm:w-auto bg-[#F5811F]">
         Get In Touch 
         <svg
           xmlns="http://www.w3.org/2000/svg"
