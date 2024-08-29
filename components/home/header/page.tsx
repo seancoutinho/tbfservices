@@ -28,7 +28,7 @@ const Header: React.FC = () => {
                   href={link.href}
                   className={`nav-link ${
                     selectedLink === link.name ? "active" : ""
-                  } hover: border-b-[#F5811F]`}
+                  } hover:border-4 hover:border-b-[#F5811F]`}
                   onClick={() => handleLinkClick(link.name)}>
                   {link.name}
                 </a>

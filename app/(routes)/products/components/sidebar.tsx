@@ -56,7 +56,7 @@ const products: Product[] = [
 
 
 const Sidebar: React.FC = () => {
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(products[0]);
 
   return (
     <div className="flex flex-col w-full md:flex-row lg-flex-row ">
