@@ -1,73 +1,38 @@
-import FadeDown from "@/components/motionEffect/FadeDown";
-import Image from "next/image";
+import React from "react";
 
 const Contact = () => {
   return (
-    <>
-      <div className="w-full p-2 md:flex gap-4 md:p-12 justify-center items-center ">
-        <FadeDown>
-          <form className="w-full">
-            <div className="mb-4">
-              <label
-                htmlFor="name"
-                className="block text-gray-700 text-sm font-bold mb-2">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                className="shadow appearance-none border py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                placeholder="Enter your name"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                htmlFor="email"
-                className="block text-gray-700 text-sm font-bold mb-2">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                className="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                placeholder="Enter your email"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                htmlFor="subject"
-                className="block text-gray-700 text-sm font-bold mb-2">
-                Subject
-              </label>
-              <input
-                type="text"
-                id="subject"
-                className="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                placeholder="Enter the subject"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                htmlFor="message"
-                className="block text-gray-700 text-sm font-bold mb-2">
-                Message
-              </label>
-              <textarea
-                id="message"
-                className="shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                rows={4}
-                placeholder="Enter your message"></textarea>
-            </div>
-            <button
-              type="submit"
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline">
-              Submit
-            </button>
-          </form>
-        </FadeDown>
-        
+    <div className="flex justify-between p-12">
+      <div className="w-1/2 p-4">
+        <form className="flex flex-col space-y-4">
+          <input type="text" placeholder="Your Name" className="border p-2" />
+          <input type="email" placeholder="Your Email" className="border p-2" />
+          <input type="email" placeholder="Your Email" className="border p-2" />
+
+          <textarea
+            placeholder="Your Subject"
+            className="border p-2 h-24"></textarea>
+          <button
+            type="submit"
+            className="bg-orange-500 w-fit text-white py-2 px-4 hover:bg-black transition-colors duration-200 ease-in-out">
+            Send message
+          </button>
+        </form>
       </div>
-    </>
+      <div className="w-1/2">
+        {/* Embedding Google Maps would require an iframe or using the Google Maps API */}
+        {/* This is just a placeholder */}
+        <div className="h-full flex items-center justify-center">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.171216598193!2d31.09448257497087!3d-17.830606883134074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931bbe4c7e8bef9%3A0xff312419ac55e877!2sRaysun%20Capital!5e0!3m2!1sen!2szw!4v1724938536642!5m2!1sen!2szw"
+            width="600"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
   );
 };
 
