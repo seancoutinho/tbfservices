@@ -8,7 +8,7 @@ const CardsSection = () => {
         <div className="bg-[#111111] flex flex-col p-4 md:p-20 gap-4 justify-between items-start text-5xl font-bold border box-shadow-lg">
           <p className="text-white">Our</p>
           <p className="text-blue-700 text-6xl">Locations</p>
-          <button className="relative flex items-center font-bold w-full text-nowrap px-4 text-black justify-center sm:w-auto bg-blue-700 overflow-hidden group">
+          <button className="relative flex items-center font-bold w-full text-nowrap px-4 text-white justify-center sm:w-auto bg-blue-700 overflow-hidden group">
             <span className="relative z-10 transition-colors duration-300 ease-in-out w-fit text-sm py-3 px-2 group-hover:text-white ">
               Find Out More
             </span>
@@ -33,7 +33,7 @@ const CardsSection = () => {
         <div className="bg-blue-700 flex flex-col p-4 md:p-20 gap-4 justify-between items-start text-5xl font-bold border box-shadow-lg">
           <p className="">Our</p>
           <p className=" md:text-6xl">Products</p>
-          <button className="relative flex items-center font-bold w-full text-nowrap px-4 text-black justify-center sm:w-auto overflow-hidden group">
+          <button className="relative flex items-center font-bold w-full text-nowrap px-4 text-white justify-center sm:w-auto overflow-hidden group">
             <span className="relative z-10 transition-colors duration-300 ease-in-out w-fit text-sm py-3 px-2 group-hover:text-white ">
               Find Out More
             </span>
