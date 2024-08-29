@@ -23,7 +23,7 @@ const Hero = () => {
               </FadeDown>
               <FadeDown>
                 <p className="mt-6 tracking-tighter text-white">
-                  <span className="font-extrabold text-6xl text-[#FFD311]">
+                  <span className="font-extrabold text-6xl text-blue-700">
                     Purpose, Precision
                   </span>
                   <br />
@@ -57,6 +57,7 @@ const Hero = () => {
                             sm:text-lg
                             text-white
                             hover:bg-white
+                            hover:text-black
                             focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-secondary
                         "
                     role="button">
