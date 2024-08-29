@@ -40,7 +40,6 @@ const Contact = () => {
             width="100%"
             height="100%"
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
             className="border rounded-lg shadow-lg"></iframe>
         </div>
       </div>
