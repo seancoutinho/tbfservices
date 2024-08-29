@@ -61,7 +61,7 @@ const Header: React.FC = () => {
       </header>
 
       <div className="hidden sm:flex">
-        <button className="relative flex items-center font-bold text-nowrap px-12 text-black justify-center bg-blue-blue-700 overflow-hidden group">
+        <button className="relative flex items-center font-bold text-nowrap px-12 text-black justify-center bg-blue-700 overflow-hidden group">
           <span className="relative z-10 transition-colors duration-300 ease-in-out group-hover:text-white">
             Get In Touch
           </span>
