@@ -15,7 +15,7 @@ const AboutUs = () => {
               alt="tanker"
             />
             <div className="flex flex-col gap-8">
-              <p className="text-wrap w-auto md:text-5xl text-orange-500 font-black">
+              <p className="text-wrap w-auto md:text-5xl text-blue-700 font-black">
                 With a dynamic team that possesses years of expertise in
                 commodity trading, Daliworx prides itself on its market
                 knowledge and ability to adapt effortlessly to market needs.

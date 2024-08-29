@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, { useState } from "react";
 import ProductDescription from "./product-description";
 
@@ -54,9 +54,10 @@ const products: Product[] = [
   },
 ];
 
-
 const Sidebar: React.FC = () => {
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(products[0]);
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(
+    products[0]
+  );
 
   return (
     <div className="flex flex-col w-full md:flex-row lg-flex-row ">
@@ -66,7 +67,7 @@ const Sidebar: React.FC = () => {
             key={index}
             className={`px-10 py-6 cursor-pointer ${
               selectedProduct?.title === product.title
-                ? "bg-gray-200 border-r-4 border-orange-500"
+                ? "bg-gray-200 border-r-4 border-blue-700"
                 : "bg-gray-200"
             }`}
             onClick={() => setSelectedProduct(product)}>

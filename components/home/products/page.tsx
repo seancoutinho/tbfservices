@@ -57,7 +57,7 @@ const ProductsSection = () => {
     <section className="py-12 bg-white sm:py-16 lg:py-20">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex text-start items-center font-black gap-4">
-          <div className=" h-12 border border-l-4 border-orange-500"></div>
+          <div className=" h-12 border border-l-4 border-blue-700"></div>
           <h2 className="capitalize text-xl font-black text-gray-900 sm:text-2xl">
             OUR PRODUCTS
           </h2>
@@ -66,7 +66,7 @@ const ProductsSection = () => {
         <div className="grid grid-cols-1 mt-8 sm:mt-12 sm:grid-cols-2 xl:grid-cols-3">
           {products.map((product) => (
             <FadeTop>
-              <div className="relative overflow-hidden border border-gray-200 transition-all duration-500 ease-in-out  bg-white hover:bg-orange-500 hover:transition-transform hover:scale-105 hover:z-10">
+              <div className="relative overflow-hidden border border-gray-200 transition-all duration-500 ease-in-out  bg-white hover:bg-blue-700 hover:transition-transform hover:scale-105 hover:z-10">
                 <div className="p-6 lg:px-10 lg:py-8">
                   <div className="flex items-center justify-start space-x-8">
                     <div className="flex-shrink-0 w-px h-12 bg-gray-200"></div>

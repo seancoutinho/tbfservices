@@ -26,7 +26,7 @@ const Contact = () => {
             className="border p-2 h-32 rounded"></textarea>
           <button
             type="submit"
-            className="bg-orange-500 text-white py-2 px-4 rounded hover:bg-black transition-colors duration-200 ease-in-out w-fit">
+            className="bg-blue-700 text-white py-2 px-4 rounded hover:bg-black transition-colors duration-200 ease-in-out w-fit">
             Send message
           </button>
         </form>

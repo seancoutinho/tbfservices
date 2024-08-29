@@ -22,7 +22,7 @@ const RoutesLayout = ({ children }: { children: React.ReactNode }) => {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="size-3 font-extrabold text-orange-500">
+            className="size-3 font-extrabold text-blue-700">
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -33,7 +33,7 @@ const RoutesLayout = ({ children }: { children: React.ReactNode }) => {
         </p>
       </div>
       {children}
-      <DiscoverMore />  
+      <DiscoverMore />
       <DownloadsSection />
       <CardsSection />
     </div>

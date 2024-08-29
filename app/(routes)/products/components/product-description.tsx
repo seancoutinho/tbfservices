@@ -20,14 +20,14 @@ const ProductDescription: React.FC<ProductDescriptionProps> = ({ product }) => {
 
   return (
     <div className="bg-white p-12 md:py-24 flex flex-col md:flex-row lg:flex-row justify-center items-start gap-8 shadow-2xl rounded-md">
-        <img
-          src={product.img}
-          alt={product.title}
-          className="w-81 h-81 object-cover"
-        />
+      <img
+        src={product.img}
+        alt={product.title}
+        className="w-81 h-81 object-cover"
+      />
       <FadeRight>
         <div className="flex flex-col justify-center items-start">
-          <h2 className="text-xl font-bold md:text-6xl md:font-black bg-orange-500 py-2 px-6">
+          <h2 className="text-xl font-bold md:text-6xl md:font-black bg-blue-700 py-2 px-6">
             {product.title}
           </h2>
           <p className="mt-4 text-xl">{product.description}</p>

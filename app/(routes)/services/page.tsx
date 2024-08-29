@@ -15,7 +15,7 @@ const AboutUs = () => {
             />
             <div className="flex flex-col gap-8">
               <h1 className="md:text-7xl font-black">Who We Represent?</h1>
-              <p className="text-wrap w-auto md:text-5xl text-orange-500 font-black">
+              <p className="text-wrap w-auto md:text-5xl text-blue-700 font-black">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
                 earum quibusdam expedita
               </p>
